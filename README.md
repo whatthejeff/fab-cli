@@ -30,14 +30,14 @@ fab-cli requires:
 
 With cURL:
 
-    $ sudo curl https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar -o /usr/local/bin/fab
-    $ sudo curl https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar -o /usr/local/bin/fabify
+    $ sudo curl -Lo /usr/local/bin/fab https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar
+    $ sudo curl -Lo /usr/local/bin/fabify https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar
     $ sudo chmod a+x /usr/local/bin/fab /usr/local/bin/fabify
 
 With Wget:
 
-    $ sudo wget https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar -O /usr/local/bin/fab
-    $ sudo wget https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar -O /usr/local/bin/fabify
+    $ sudo wget -O /usr/local/bin/fab https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar
+    $ sudo wget -O /usr/local/bin/fabify https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar
     $ sudo chmod a+x /usr/local/bin/fab /usr/local/bin/fabify
 
 With composer:
@@ -49,19 +49,15 @@ With composer:
 
 With cURL:
 
-    $ curl -O https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar
-    $ curl -O https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar
-    $ mv fab.phar fab
-    $ mv fabify.phar fabify
+    $ curl -Lo fab https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar
+    $ curl -Lo fabify https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar
     $ chmod +x fab fabify
     $ export PATH="$PATH:$(pwd)"
 
 With Wget:
 
-    $ wget https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar
-    $ wget https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar
-    $ mv fab.phar fab
-    $ mv fabify.phar fabify
+    $ wget -O fab https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar
+    $ wget -O fabify https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar
     $ chmod +x fab fabify
     $ export PATH="$PATH:$(pwd)"
 
