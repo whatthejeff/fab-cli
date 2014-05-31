@@ -8,13 +8,11 @@ Brighten up your shell!
 ### fab
 
 ![fab composer example](docs/images/fab-composer.png)
-
 ![fab PHPUnit example](docs/images/fab-phpunit.png)
 
 ### fabify
 
 ![fabify composer example](docs/images/fabify-composer.png)
-
 ![fabify PHPUnit example](docs/images/fabify-phpunit.png)
 
 ## Requirements
