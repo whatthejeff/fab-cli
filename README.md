@@ -26,6 +26,11 @@ fab-cli requires:
 
 ## Installation
 
+**Warning:** The install instructions below suggest renaming the `fab.phar`
+binary to `fab`. If your system has [fabric](https://github.com/fabric/fabric)
+installed, you should leave the `.phar` extension on the binary so that you
+don't have any unexpected surprises during your next deploy.
+
 ### Global
 
 With cURL:
