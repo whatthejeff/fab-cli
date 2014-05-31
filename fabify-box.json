@@ -1,0 +1,20 @@
+{
+    "chmod": "0755",
+    "files": [
+        "LICENSE"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": [
+                "Tests",
+                "tests"
+            ],
+            "in": "vendor"
+        }
+    ],
+    "main": "bin/fabify",
+    "output": "build/fabify.phar",
+    "stub": true,
+    "web": false
+}
