@@ -30,14 +30,14 @@ fab-cli requires:
 
 With cURL:
 
-    $ sudo curl https://github.com/whatthejeff/fab-cli/releases/download/1.0.0/fab.phar -o /usr/local/bin/fab
-    $ sudo curl https://github.com/whatthejeff/fab-cli/releases/download/1.0.0/fabify.phar -o /usr/local/bin/fabify
+    $ sudo curl https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar -o /usr/local/bin/fab
+    $ sudo curl https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar -o /usr/local/bin/fabify
     $ sudo chmod a+x /usr/local/bin/fab /usr/local/bin/fabify
 
 With Wget:
 
-    $ sudo wget https://github.com/whatthejeff/fab-cli/releases/download/1.0.0/fab.phar -O /usr/local/bin/fab
-    $ sudo wget https://github.com/whatthejeff/fab-cli/releases/download/1.0.0/fabify.phar -O /usr/local/bin/fabify
+    $ sudo wget https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar -O /usr/local/bin/fab
+    $ sudo wget https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar -O /usr/local/bin/fabify
     $ sudo chmod a+x /usr/local/bin/fab /usr/local/bin/fabify
 
 With composer:
@@ -49,8 +49,8 @@ With composer:
 
 With cURL:
 
-    $ curl -O https://github.com/whatthejeff/fab-cli/releases/download/1.0.0/fab.phar
-    $ curl -O https://github.com/whatthejeff/fab-cli/releases/download/1.0.0/fabify.phar
+    $ curl -O https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar
+    $ curl -O https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar
     $ mv fab.phar fab
     $ mv fabify.phar fabify
     $ chmod +x fab fabify
@@ -58,8 +58,8 @@ With cURL:
 
 With Wget:
 
-    $ wget https://github.com/whatthejeff/fab-cli/releases/download/1.0.0/fab.phar
-    $ wget https://github.com/whatthejeff/fab-cli/releases/download/1.0.0/fabify.phar
+    $ wget https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fab.phar
+    $ wget https://github.com/whatthejeff/fab-cli/releases/download/v1.0.0/fabify.phar
     $ mv fab.phar fab
     $ mv fabify.phar fabify
     $ chmod +x fab fabify
