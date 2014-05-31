@@ -12,7 +12,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-const FAB_VERSION = '1.0';
+const FAB_VERSION = '1.0.0';
 const FAB_NAME = 'fab-cli (fabify)';
 
 function usage() {
