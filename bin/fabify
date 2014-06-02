@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-const FAB_VERSION = '1.0.1';
+const FAB_VERSION = '1.0.2';
 const FAB_NAME = 'fab-cli (fabify)';
 
 if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
